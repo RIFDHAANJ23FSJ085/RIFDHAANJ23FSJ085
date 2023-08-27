@@ -7,11 +7,11 @@ import java.util.UUID;
  * @author Ahmed Rifdhan M.S
  */
 public class Patient {
-	private UUID patientId;
-	private String firstName;
-	private String lastName;
-	private Exposure[] exposures;
-	private UUID[] diseaseIds;
+	private UUID patientId; // I declare a variable by name patientId of type UUID with private access Specifier.
+	private String firstName;// I declare a variable by name firstName of type String with private access Specifier.
+	private String lastName;// I declare a variable by name lastName of type String with private access Specifier.
+	private Exposure[] exposures;// I declare a variable by name exposures of type Exposure Array with private access Specifier.
+	private UUID[] diseaseIds;// I declare a variable by name diseaseIds of type UUID Array with private access Specifier.
 
 	/**
 	 * @param patientId
