@@ -100,7 +100,6 @@ public abstract class Disease2 {
 	}
 
 	public static class InfectiousDisease extends Disease2 {
-
 		public InfectiousDisease() {
 			// TODO Auto-generated constructor stub
 		}

@@ -187,7 +187,7 @@ public class Patient {
 		return result;
 	}
 
-	@Override
+	@Override   // shortcut   alt + shift + s
 	public boolean equals(Object obj) {
 		if (this == obj) {
 			return true;

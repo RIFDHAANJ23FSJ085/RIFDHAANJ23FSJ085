@@ -10,7 +10,7 @@ import edu.disease.asn1.Exposure;
 
 public class DiseaseControlManagerImpl implements DiseaseControlManager {
 
-	protected Disease2[] diseases; // i declared a variable by name diseases of type Array of Disease Id 
+	protected Disease2[] diseases; // i declared a variable by name diseases of type DiseaseArray 
 	protected Patient2[] patients;
 	
 	/**
@@ -109,7 +109,7 @@ public class DiseaseControlManagerImpl implements DiseaseControlManager {
 	
 	@Override
 	public Disease2 getDisease(UUID diseaseId) {
-		 for (Disease2 disease : diseases) {
+		 for (Disease2 disease : diseases) {// enhanced for Loop (foreach loop) introduced in jdk5 it is only used for array and collections. 
 		        if (disease != null && disease.getDiseaseId().equals(diseaseId)) {
 		            return disease;
 		        }

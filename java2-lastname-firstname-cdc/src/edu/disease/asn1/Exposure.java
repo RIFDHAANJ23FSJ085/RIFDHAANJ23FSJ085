@@ -85,7 +85,7 @@ public class Exposure {
 
 	public void setExposureType(String exposureType) {
 
-		if (exposureType.equals("D") || exposureType.equals("I")) {
+		if (exposureType.equals("D") || exposureType.equals("I")) { // D for Direct Exposure && I for Indirect Exposure
 			this.exposureType = exposureType;
 
 		} else {
