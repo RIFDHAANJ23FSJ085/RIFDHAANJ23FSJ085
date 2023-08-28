@@ -10,7 +10,7 @@ import edu.disease.asn1.Exposure;
 
 public class DiseaseControlManagerImpl implements DiseaseControlManager {
 
-	protected Disease2[] diseases; // i declared a variable by name diseases of type DiseaseArray 
+	protected Disease2[] diseases; // i declared a variable by name diseases of type Disease2Array 
 	protected Patient2[] patients;
 	
 	/**
